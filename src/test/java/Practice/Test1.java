@@ -1,9 +1,11 @@
 package Practice;
 
+import org.testng.annotations.Test;
+
 public class Test1 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	@Test
+	public void method1() {
 		System.out.println("execute");
 
 	}
